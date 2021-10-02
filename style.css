@@ -1,4 +1,10 @@
-
+.my_nav_bar
+{
+position: sticky;
+top: 0px;
+z-index: 99999;
+width: 100%;
+}
 #contact iframe
 {
     width: 100%;
