@@ -1,71 +1,194 @@
-.my_nav_bar
-{
-position: sticky;
-top: 0px;
-z-index: 99999;
-width: 100%;
-}
-#contact iframe
-{
-    width: 100%;
-}
-.contact_1 h3
-{
-    display: inline;
-}
-.contact_1 a
-{
-    text-shadow: none;
-}
- 
-input
-{
-    background: grey
-}
+<html>
+    <head>
+        <title>Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.campus_mainDiv
-{
-    border: 1px solid #c7c7c7;
-    padding-left: 0px;
-    padding-right: 0px;
-    float: none
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-.campus_mainDiv img
-{
-  width: 100%;
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-.campus_mainDiv hr
-{
-    width: 230px; 
-}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-.campus_mainDiv h5 , .campus_mainDiv p
-{
-margin-left: 20px;
-}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="style.css">
 
-.achievements_head
-{
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    width: 100%;
-    display: inline-block;
-}
+    </head>
+    
+        <body>
+        <center>
+       <div class="container">
+           <nav class="navbar-inverse my_nav_bar">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                   <a href="#" class="navbar-brand">DBB</a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
 
-.achievements_head i
-{
-float: right;
-}
+        <ul class="nav navbar-nav">
+        <li class="links"><a href="#welcome">HOME</a></li> 
+        <li class="links"><a href="#principal">PRINCIPAL</a></li> 
+        <li class="links"><a href="#video">VIDEOS</a></li> 
+        <li class="links"><a href="#writings">WRITINGS</a></li>
+        <li class="links"><a href="#campus">CAMPUS LIFE</a></li>
+        <li class="links"><a href="#new">WHAT'S NEW</a></li>
+        <li class="links"><a href="#achievements">ACHIEVEMENTS</a></li> 
+        <li class="links"><a href="#contact">CONTACT</a></li> 
+        
+        </ul>
+    </div>
+    </nav> 
+    <BR>
+    <marquee class="text"><kbd>CLASS 1 ADMITION STARTS TOMORROW.</kbd></marquee><hr>
+    <section id="welcome" class="parallax-container">
+            <div class="parallax-inner">
+                <img src="2020.jpg" class="profile">
+                <h1><kbd>DON BOSCO SCHOOL BANDEL</kbd></h1>
+            </div><hr>
+    </section>
+        <section id="principal" class="parallax-container">
+        <div class="parallax-inner">
+                          <h1><kbd>PRINCIPAL'S MESSAGE</kbd></h1><hr>
+                          <h2>Dear Staff, Students, Parents and Well-wishers,
+Welcome to this website of Don Bosco School Bandel. As you go through the site you can see that it has been painstakingly prepared to present the various facets of this school to which many of you are associated either as students, parents or admirers.
+It is not inappropriate to mention that you are close to Don Bosco School because of the values that the school pledges in its life and activities. The school has always held aloft the teachings of Jesus Christ who says “I have come that they may have life and have it in abundance”. Thus, we are doubly blessed to be associated with this institution that claims to be a beacon to the people who live on both sides of the Hooghly River and radiating the teaching of Christ which assures us of life and life in abundance.<br>
+Don Bosco School pledges to make all who enter into its portal into persons of character, competence, conscience, compassion and commitment, who will foster uprightness in public life.<br>
+I invite all persons of good will and all who are associated with this institution to beacons in their own settings and thus carry the legacy they have received from being associated with this institution.
+God bless you and may Don Bosco guide us. <br>
 
-.achievements_text span
-{
-color: #ff7700;
-}
+Yours truly<br>
+Fr. Siby Joseph Vadakel <br>
+Principal</h2><hr>
+            </div>
+            <br>
+<section id="video" class="parallax-container">
+            <div class="parallax-inner">
+            <h1><kbd>VIDEO</kbd></h1><hr>
+           <iframe width="853" height="480" src="https://www.youtube.com/embed/Wnw8VlNoNLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><hr>
+            
+    </div>
+        </section>
+        <br>
+        <section id="writings" class="parallax-container">
+            <div class="parallax-inner">
+            <h1><kbd>DBB BEAMS(MAGAZINE)</kbd></h1><hr>
+            <iframe src="https://www.dbbandel.org/uploads/newsletter/20210717180514.pdf" width="600" height="450">
+                </iframe>
+            <br><hr>
+            </div>
+        </section>
+        <div class="container">
+	
+  <div class="page-header" id="campus">
+  		<h2 class="text-capitalize"><kbd>CAMPUS LIFE</kbd></h2>
+  </div>
+    
+  	<center>
+  		<div  class="campus_mainDiv"> 
+  			<img class="img-responsive"  src="https://tse3.mm.bing.net/th?id=OIP.9ip_fVK5pP0itn29HE0gqwHaE7&pid=Api&P=0&w=258&h=172">
 
+  			<h4 class="text-capitalize"><kbd>AUDITORIUM</kbd></h4>
+ 	<h5 class="text-success text-left text-capitalize" >made in 1970</h5>
+<p class="text-muted text-left" >Place where functions occur and comprtitions are held. </p><hr>
+  		</div>
+  	</center>
+   
+  	<center>
+  		<div  class="campus_mainDiv"> 
+  			<img class="img-responsive"  src="https://tse4.mm.bing.net/th?id=OIP.eX0fsT_WaPdludW2ioluegHaE7&pid=Api&P=0&w=241&h=161">
+  			<h4 class="text-capitalize"><kbd>LIBRARY</kbd></h4>
+  			
+  			<h5 class="text-success text-left text-capitalize" >made in 1975</h5>
+  			<p class="text-muted text-left" >Place where piles of books are silently read by students. </p><hr>
+  		</div>
+  	</center>
 
+      <div class="page-header" id="new">
+        <h1><kbd>WHAT'S NEW</kbd></h1>
+    </div>
+    <ul>
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li ">
+          <h4>New canteen for students</h4>
+          <img src="https://tse1.mm.bing.net/th?id=OIP.EdPrm-IHmvV9KOXq7KnQIAHaD7&pid=Api&P=0&w=313&h=167" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Healthy food and cold drinks are available
+        for students in the new school canteen. They can buy their desired food during the lunch period.
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-group-item list-group-item-danger col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li ">
+          <h4>New app called campuscare is launched</h4>
+          <img src="https://tse4.explicit.bing.net/th?id=OIP.YK20PIKc7o5fedEsOtTONwHaDn&pid=Api&P=0&w=342&h=168" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">A new app called campus care is launched
+              in which homeworks or important notices will be informed to the students. Students can access it via mobile or as a website.          </p>
+        </li>
+      </ul>
+<br>
+<hr>
+<br>
+     <div class="page-header" id="achievements">
+    <h1><kbd>ACHIEVEMENTS OF THE SCHOOL</kbd></h1>
+</div>
+
+<div class="bg-primary achievements_head" data-toggle="collapse" data-target="#school_achievements" >
+<span >Music</span> <i class="fa fa-sort-desc" ></i>
+</div>
+
+<div id="school_achievements" class="collapse">
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="https://www.dbbandel.org/uploads/gallery/20180717172442.jpg" class="img-responsive img-thumbnail"> 
+</div>
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievements_text" >
+    <h5 class="text-success text-left text-capitalize">Won first prize at interschool music competition.</h5>
+    </div>
+            </div><hr><br>
+   <div class="bg-primary achievements_head" data-toggle="collapse" data-target="#school_achievements2" >
+<span >Dance</span> <i class="fa fa-sort-desc" ></i>
+</div>
+
+<div id="school_achievements2" class="collapse">
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <img src="https://www.dbbandel.org/uploads/gallery/20180717172442.jpg" class="img-responsive img-thumbnail"> 
+</div>
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievements_text" >
+    <h5 class="text-success text-left text-capitalize">Won first prize at interschool dance competition.</h5>
+    </div>
+            </div><hr><br>
+   
+
+    <section id="contact" class="parallax-container">
+            <div class="parallax-inner">
+            <h1><kbd>CONTACT</kbd></h1><hr>
+            <br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29411.20916344638!2d88.35091873076055!3d22.861635292211844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f891c05d059fa9%3A0x516c5f246932de74!2sChandannagar%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1628421911330!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><hr>
+           
+            <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+               <a href="//mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=deepikapoddar@gmail.com" target="_blank"https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to="dbbandel@gmail.com">
+               <i class="fa fa-envelope" ></i>&nbsp;&nbsp;<h3>dbbandel@gmail.com</h3>
+               </a><br><hr>
+               <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
+                   <form> 
+                       <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <input type="text" name="name" required> <br><br> 
+                       <span>Comment : </span>
+                       <input type="text" name="comment" required> <br><br>
+                        <input type="submit" value="submit" class="btn btn-success">
+                     </form> <hr>
+                </div>
+           </div>
+            </div>
+        </section>
+        </center>    
+    </body>
+    
+</html>
 
