@@ -85,6 +85,30 @@ color: #ff7700;
   .environment_li p {
     margin-top: 10px;
   }
+  .alumni {
+    cursor: pointer;
+  }
+  .alumni hr {
+    margin-bottom: 10px;
+  }
+  .modal-content{
+    margin-top: 100px;
+  
+  }
+  .img-modal{
+    display: inline-block;
+    
+  }
+  .p_modal{
+    margin-top: 20px;
+  }
+  .modal-body{
+    text-align: center;
+  }
+  .img-responsive {
+    width: 400px;
+    height: 400px;
+  }
 
 
 
